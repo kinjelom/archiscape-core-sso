@@ -1,0 +1,29 @@
+{
+  "applications": "*",
+  "changelogDate": "20220620140152",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "team",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "30",
+      "options": {
+        "id": true
+      }
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Team",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
