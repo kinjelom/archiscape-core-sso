@@ -1,0 +1,27 @@
+{
+  "archiscapeCoreApp": {
+    "contentStoreInternal": {
+      "home": {
+        "title": "Content Store Internal",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Content Store Internal",
+        "createOrEditLabel": "Dodaj lub edytuj: Content Store Internal",
+        "notFound": "No Content Store Internals found"
+      },
+      "created": "Utworzono nowy obiekt typu Content Store Internal z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Content Store Internal z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Content Store Internal z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Content Store Internal {{ id }}?"
+      },
+      "detail": {
+        "title": "Content Store Internal"
+      },
+      "id": "Id",
+      "version": "Version",
+      "insertDate": "Insert Date",
+      "fileName": "File Name",
+      "content": "Content"
+    }
+  }
+}
